@@ -1,0 +1,9 @@
+CS214 SPING 2021
+Project II
+David Menedndez
+
+Xinyu Meng xm73
+Qichao Lin ql180
+
+When testing, we tried several cases including no arguments(error print to stderr), directory with no files(error), two identical files(JSD=0), two files completely different(JSD = 1), two empty files(JSD = 0), a regular file with a empty file(JSD = sqrt(2)), files contains only 1 word, only whitespaces(same as an empty file), directories within directories, different mount of files with different amount of words.
+The output was correct in every situation listed above so that we have determined our program is correct. 
